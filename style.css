@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* Alegreya Sans SC font */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+    background-color: pink;
+  }
+
+.maincontent {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border: 2px solid #fc3903;
+}
+
+h1 {
+    font-family: 'Arvo', serif, arial;
+    font-size: 6em; /* em is relative to font, 5em means 5 x the size of current font */
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding : 5px;
+    background-color: red;
+  }
+
+p {
+  font-family: 'Roboto', serif, arial;
+   font-size: 1.5em;
+   text-align: justify;
+   padding: 10px;
+   margin: 10px;
+}
+
+#outlink {
+  font-size: 15px; /* pixels */
+  font-family: 'PT Sans Narrow', arial, sans-serif;
+  margin: auto;
+}
+
+table {
+   padding: 10px;
+   margin: 10px;
+}
+
+th {
+  padding: 2px;
+   margin: 2px;
+  font-size:2em;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+footer{
+  height:125px;
+  background-image: url("https://i.imgur.com/TjFneJt.png");
+}
